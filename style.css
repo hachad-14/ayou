@@ -13,7 +13,7 @@ body {
     body {
         background-color: #000 ;
         /*position: fixed;*/
-        overflow: hidden;
+        /*overflow: hidden;*/
     }
     .boxes {
         position: absolute;
@@ -21,7 +21,7 @@ body {
     .firstbody{
         position: absolute;
         background-color: #8D8D8D;
-        padding: 108vw 40vw;
+        padding: 18vw 40vw;
         top: 60vw;
         left: 10vw;
         border-radius: 5vw;
