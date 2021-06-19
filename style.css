@@ -11,7 +11,7 @@ body {
 
 @media only screen and (max-width: 575px) {
     body {
-        background-color: #000 ;
+        background-color: #4d4d4d;
         /*position: fixed;*/
         /*overflow: hidden;*/
     }
