@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 220vw;
+    height: 200vw;
     background-color: #000;
 }
 
@@ -22,7 +22,7 @@ body {
         position: absolute;
         background-color: #8D8D8D;
         padding: 18vw 40vw;
-        top: 30vw;
+        top: 50vw;
         left: 10vw;
         border-radius: 5vw;
         opacity: 1;
@@ -31,7 +31,7 @@ body {
         position: absolute;
         background-color: #8D8D8D;
         padding: 18vw 40vw;
-        top: 80vw;
+        top: 100vw;
         left: 10vw;
         border-radius: 5vw;
         opacity: 1;
@@ -40,7 +40,7 @@ body {
         position: absolute;
         background-color: #8D8D8D;
         padding: 18vw 40vw;
-        top: 130vw;
+        top: 150vw;
         left: 10vw;
         border-radius: 5vw;
         opacity: 1;
