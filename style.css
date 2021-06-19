@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 220vw;
+    background-color: #000;
+}
+
+@media only screen and (max-width: 575px) {
+    body {
+        background-color: #000 ;
+        /*position: fixed;*/
+        overflow: hidden;
+    }
+    .boxes {
+        position: absolute;
+    }
+    .firstbody{
+        position: absolute;
+        background-color: #8D8D8D;
+        padding: 18vw 40vw;
+        top: 60vw;
+        left: 10vw;
+        border-radius: 5vw;
+        opacity: 1;
+    }
+    .secondbody{
+        position: absolute;
+        background-color: #8D8D8D;
+        padding: 18vw 40vw;
+        top: 110vw;
+        left: 10vw;
+        border-radius: 5vw;
+        opacity: 1;
+    }
+    .thirdbody{
+        position: absolute;
+        background-color: #8D8D8D;
+        padding: 18vw 40vw;
+        top: 160vw;
+        left: 10vw;
+        border-radius: 5vw;
+        opacity: 1;
+    }
+}
