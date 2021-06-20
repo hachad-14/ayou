@@ -17,6 +17,10 @@ if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
         document.getElementById("b2").style.visibility = "visible";
         document.getElementById("b3").style.visibility = "visible";
         document.getElementById("b4").style.visibility = "visible";
+        document.getElementById("b1").style.opacity = "opacity";
+        document.getElementById("b2").style.opacity = "opacity";
+        document.getElementById("b3").style.opacity = "opacity";
+        document.getElementById("b4").style.opacity = "opacity";
     }, 12000 );
 }
 
