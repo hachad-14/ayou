@@ -15,8 +15,14 @@ body {
         /*position: fixed;*/
         /*overflow: hidden;*/
     }
-    .boxes {
+    #datetime{
+        font-family: 'Poppins';
+        color: #000;
         position: absolute;
+        top: 20vw;
+        left: 32vw;
+        font-size: 6vw;
+        font-weight: bold;
     }
     .title {
         position: absolute;
@@ -24,7 +30,7 @@ body {
         font-size: 7vw;
         color: #fff;
         font-weight: bold;
-        left: 32vw;
-        top: 10vw;
+        left: 6vw;
+        top: 7vw;
     }
 }

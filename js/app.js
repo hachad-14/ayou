@@ -1,10 +1,5 @@
 var todaysDate = new Date();
 
-var inputDate = new Date("06/20/2021");
-if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-    console.log("auj");
-}
-
 var inputDate = new Date("06/21/2021");
 if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
     console.log("auj");
@@ -21,6 +16,11 @@ if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
 }
 
 var inputDate = new Date("06/24/2021");
+if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+    console.log("auj");
+}
+
+var inputDate = new Date("06/25/2021");
 if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
     console.log("auj");
 }
