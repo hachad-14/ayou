@@ -51,4 +51,11 @@ body {
         padding: 0vw 8vw;
         font-weight: bold;
     }
+    .r {
+        position: absolute;
+        font-family: 'Montserrat';
+        font-size: 4vw;
+        top: 135vw;
+        left: 30vw;
+    }
 }
