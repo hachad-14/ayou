@@ -1,3 +1,6 @@
+var dt = new Date();
+        document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
+        
 var todaysDate = new Date();
 
 var inputDate = new Date("06/22/2021");
