@@ -13,7 +13,7 @@ body {
     body {
         background-color: #727272;
         /*position: fixed;*/
-        /*overflow: hidden;*/
+        overflow: hidden;
     }
     .title {
         position: absolute;
