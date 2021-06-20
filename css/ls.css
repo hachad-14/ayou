@@ -41,4 +41,7 @@ body {
         border-radius: 5vw;
         opacity: 1;
     }
+    #txt {
+        font-family: 'Poppins';
+    }
 }
