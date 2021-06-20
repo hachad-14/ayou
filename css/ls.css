@@ -35,9 +35,9 @@ body {
     .body {
         position: absolute;
         background-color: #8D8D8D;
-        padding: 50vw 43vw;
-        top: 42vw;
-        left: 7vw;
+        padding: 50vw 40vw;
+        top: 40vw;
+        left: 6.5vw;
         border-radius: 5vw;
         opacity: 1;
     }
