@@ -43,7 +43,12 @@ body {
     }
     #txt {
         position: absolute;
-        font-family: 'Poppins';
+        font-family: 'Montserrat';
         text-align: center;
+        font-size: 5vw;
+        left: 0vw;
+        top:30vw;
+        padding: 0vw 8vw;
+        font-weight: bold;
     }
 }

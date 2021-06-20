@@ -2,12 +2,12 @@ var todaysDate = new Date();
 
 var inputDate = new Date("06/20/2021");
 if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-    document.getElementById("txt").innerHTML = "teaaaast";
+    document.getElementById("txt").innerHTML = "Sache que j’adore te voir heureuse\net ma plus belle récompense est\nton sourire.";
 }
 
 var inputDate1 = new Date("06/22/2021");
 if(inputDate1.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-    document.getElementById("txt").innerHTML = "pifhziaeuqfh";
+    document.getElementById("txt").innerHTML = "Sache que j’adore te voir heureuse\net ma plus belle récompense est\nton sourire.";
 }
 
 var inputDate2 = new Date("06/23/2021");
