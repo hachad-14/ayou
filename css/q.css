@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 180vw;
+    background-color: #000;
+}
+
+@media only screen and (max-width: 575px) {
+    body {
+        background-color: #727272;
+        position: fixed;
+        overflow: hidden;
+    }
+}
