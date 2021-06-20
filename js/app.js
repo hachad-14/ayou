@@ -2,7 +2,7 @@ var todaysDate = new Date();
 
 var inputDate = new Date("06/20/2021");
 if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-    document.getElementById("txt").innerHTML = "teaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaast";
+    document.getElementById("txt").innerHTML = "teaaaast";
 }
 
 var inputDate1 = new Date("06/22/2021");

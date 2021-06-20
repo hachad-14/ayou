@@ -35,13 +35,15 @@ body {
     .body {
         position: absolute;
         background-color: #8D8D8D;
-        padding: 50vw 40vw;
-        top: 40vw;
+        padding: 50vw 43.5vw;
+        top: 44vw;
         left: 6.5vw;
         border-radius: 5vw;
         opacity: 1;
     }
     #txt {
+        position: absolute;
         font-family: 'Poppins';
+        text-align: center;
     }
 }
