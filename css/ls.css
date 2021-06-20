@@ -16,13 +16,12 @@ body {
         /*overflow: hidden;*/
     }
     .title {
-        position: inherit;
         font-family: 'Poppins';
         font-size: 7vw;
         color: #fff;
         font-weight: bold;
-        left: 4vw;
-        top: 7vw;
+        margin-left: 4vw;
+        margin-top: 7vw;
     }
     #datetime{
         font-family: 'Poppins';
