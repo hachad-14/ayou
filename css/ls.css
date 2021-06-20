@@ -16,7 +16,7 @@ body {
         /*overflow: hidden;*/
     }
     .title {
-        position: relative;
+        position: inherit;
         font-family: 'Poppins';
         font-size: 7vw;
         color: #fff;
