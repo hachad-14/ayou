@@ -1,6 +1,6 @@
 var todaysDate = new Date();
 
-var inputDate = new Date("06/21/2021");
+var inputDate = new Date("06/20/2021");
 if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
     document.getElementById("pre").innerHTML = "J'éspere que t'es prete fraté.\n C'est pas un quizz de bébé, j'tle dis...";
     document.getElementById("pre1").innerHTML = "Allez on commence !!!";
@@ -13,10 +13,8 @@ if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
     }, 10000 );
     setTimeout( function(){ 
         document.getElementById("fq").style.opacity = "1";
-        document.getElementById("b1").style.visibility = "visible";
-        document.getElementById("b2").style.visibility = "visible";
-        document.getElementById("b3").style.visibility = "visible";
-        document.getElementById("b4").style.visibility = "visible";
+        document.getElementById("vrai").style.visibility = "visible";
+        document.getElementById("faux").style.visibility = "visible";
     }, 12000 );
 }
 

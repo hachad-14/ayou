@@ -1,9 +1,9 @@
 var dt = new Date();
         document.getElementById("datetime").innerHTML = dt.toLocaleDateString();
-        
+
 var todaysDate = new Date();
 
-var inputDate = new Date("06/22/2021");
+var inputDate = new Date("06/21/2021");
 if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
     document.getElementById("txt").innerHTML = "Mon coeur, sache que\nje suis prêt à tout faire\npour te rendre heureuse.\nTu peux compter sur moi.";
 }

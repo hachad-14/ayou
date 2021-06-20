@@ -61,28 +61,57 @@ body {
         opacity: 0;
         transition: 1s ease;
     }
-    #vrai {
+    #b1 {
         position: absolute;
         padding: 4vw 10vw;
-        background-color: #03a00b;
+        background-color: #fff;
         top: 120vw;
         left: 15vw;
         border-radius: 5vw;
         color: #000;
         font-family: 'Montserrat';
         font-weight: bold;
+        visibility: hidden;
+        transition: 1s ease;
     }
-    #faux {
+    #b2 {
         position: absolute;
         padding: 4vw 10vw;
-        background-color: #be0909;
+        background-color: #fff;
         top: 120vw;
         left: 55vw;
         border-radius: 5vw;
         color: #000;
         font-family: 'Montserrat';
         font-weight: bold;
-        opacity: 1;
+        visibility: hidden;
+        transition: 1s ease;
+    }
+    #b3 {
+        position: absolute;
+        padding: 4vw 10vw;
+        background-color: #fff;
+        top: 90vw;
+        left: 15vw;
+        border-radius: 5vw;
+        color: #000;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        visibility: hidden;
+        transition: 1s ease;
+    }
+    #b4 {
+        position: absolute;
+        padding: 4vw 10vw;
+        background-color: #fff;
+        top: 90vw;
+        left: 55vw;
+        border-radius: 5vw;
+        color: #000;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        visibility: hidden;
+        transition: 1s ease;
     }
     @keyframes drop {
         0% {
