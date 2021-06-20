@@ -33,4 +33,13 @@ body {
         font-size: 6vw;
         font-weight: bold;
     }
+    .body {
+        position: absolute;
+        background-color: #8D8D8D;
+        padding: 50vw 43vw;
+        top: 45vw;
+        left: 7vw;
+        border-radius: 5vw;
+        opacity: 1;
+    }
 }
