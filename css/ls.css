@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 180vw;
+    background-color: #000;
+}
+
+@media only screen and (max-width: 575px) {
+    body {
+        background-color: #727272;
+        /*position: fixed;*/
+        /*overflow: hidden;*/
+    }
+    .boxes {
+        position: absolute;
+    }
+    .title {
+        position: absolute;
+        font-family: 'Poppins';
+        font-size: 7vw;
+        color: #fff;
+        font-weight: bold;
+        left: 32vw;
+        top: 10vw;
+    }
+}
