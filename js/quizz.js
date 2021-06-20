@@ -6,13 +6,16 @@ if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
     document.getElementById("pre1").innerHTML = "Allez on commence !!!";
     setTimeout( function(){ 
         document.getElementById("pre1").style.opacity = "1";
-    }, 6000 );
+    }, 7000 );
     setTimeout( function(){ 
         document.getElementById("pre1").style.opacity = "0";
     }, 10000 );
     setTimeout( function(){ 
         document.getElementById("fq").style.opacity = "1";
-    }, 12000 );
+        document.getElementById("vrai").style.visibility = "visible";
+        document.getElementById("faux").style.visibility = "visible";
+        document.getElementById("fq").innerHTML = "Comment s'appelle mon frére ?";
+    }, 11000 );
 }
 
 var inputDate1 = new Date("06/23/2021");

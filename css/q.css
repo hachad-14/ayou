@@ -25,7 +25,7 @@ body {
         font-size: 4.7vw;
         animation: drop 8s ease ;
         opacity: 1;
-        top: 5vw;
+        top: 0vw;
         left: 100vw;
     }
     #pre1 {
@@ -41,16 +41,48 @@ body {
         left: 0vw;
         transition: 2s ease;
     }
+    .body {
+        position: absolute;
+        background-color: #8D8D8D;
+        padding: 50vw 43.5vw;
+        top: 44vw;
+        left: 6.5vw;
+        border-radius: 5vw;
+        opacity: 1;
+    }
     #fq {
         position: absolute;
         font-family: 'Montserrat';
         font-weight: bold;
         font-size: 6vw;
         color: #fff;
-        top: 30vw;
-        left: 15vw;
+        top: 50vw;
+        left: 10vw;
         opacity: 0;
         transition: 1s ease;
+    }
+    #vrai {
+        position: absolute;
+        padding: 4vw 10vw;
+        background-color: #03a00b;
+        top: 120vw;
+        left: 15vw;
+        border-radius: 5vw;
+        color: #000;
+        font-family: 'Montserrat';
+        font-weight: bold;
+    }
+    #faux {
+        position: absolute;
+        padding: 4vw 10vw;
+        background-color: #be0909;
+        top: 120vw;
+        left: 55vw;
+        border-radius: 5vw;
+        color: #000;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        opacity: 1;
     }
     @keyframes drop {
         0% {
