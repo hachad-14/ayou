@@ -38,7 +38,7 @@ body {
         font-size: 6vw;
         opacity: 0;
         top: 13vw;
-        left: 0vw;
+        left: -2vw;
         transition: 2s ease;
     }
     .body {
