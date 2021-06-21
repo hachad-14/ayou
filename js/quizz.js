@@ -50,7 +50,7 @@ $(document).ready(function() {
         }, 10000 );
         setTimeout( function(){ 
             document.getElementById("nbd").style.opacity = "1";
-        }, 8000);
+        }, 11500);
         setTimeout( function(){ 
             document.getElementById("fq").style.opacity = "1";
             document.getElementById("b1").style.visibility = "visible";
