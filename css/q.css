@@ -16,7 +16,7 @@ body {
         overflow: hidden;
     }
     #pre {
-        position: relative;
+        position: absolute;
         padding: 10vw 15vw;
         text-align: center;
         font-family: 'Montserrat';
@@ -29,7 +29,7 @@ body {
         left: 100vw;
     }
     #pre1 {
-        position: relative;
+        position: absolute;
         padding: 10vw 15vw;
         text-align: center;
         font-family: 'Montserrat';
@@ -37,8 +37,8 @@ body {
         font-weight: bold;
         font-size: 6vw;
         opacity: 0;
-        top: -25vw;
-        left: 0vw;
+        top: 13vw;
+        left: 2vw;
         transition: 2s ease;
     }
     .body {
@@ -54,7 +54,7 @@ body {
         position: absolute;
         font-family: 'Montserrat';
         font-weight: bold;
-        font-size: 6vw;
+        font-size: 5.5vw;
         color: #fff;
         top: 50vw;
         left: 10vw;
@@ -130,7 +130,7 @@ body {
     #redscreen{
         position: relative;
         top: -100vw;
-        padding: 100% 100%;
+        padding: 500vw 500vw;
         background-color: #cf0000;
         visibility: hidden;
         transition: 1s ease;
@@ -138,7 +138,7 @@ body {
     #greenscreen{
         position: relative;
         top: -300vw;
-        padding: 100% 100%;
+        padding: 500vw 500vw;
         background-color: #23a600;
         visibility: hidden;
         transition: 1s ease;

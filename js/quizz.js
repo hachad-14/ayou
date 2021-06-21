@@ -4,9 +4,9 @@ $(document).ready(function() {
 
     var inputDate = new Date("06/21/2021");
     if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
-        document.getElementById("pre").innerHTML = "J'éspere que t'es prete fraté.\n C'est pas un quizz de bébé, j'tle dis...";
+        document.getElementById("pre").innerHTML = "J'éspere que t'es prete fraté.<br> C'est pas un quizz de bébé,<br>j'tle dis...";
         document.getElementById("pre1").innerHTML = "Allez on commence !!!";
-        document.getElementById("fq").innerHTML = "Comment s'appelle mon\nfrére ?";
+        document.getElementById("fq").innerHTML = "Comment s'appelle mon<br>frére ?";
         document.getElementById("b1").innerHTML = "Kamal";
         document.getElementById("b2").innerHTML = "Mohamed";
         document.getElementById("b3").innerHTML = "Mohamed Kamal";
