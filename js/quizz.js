@@ -6,6 +6,10 @@ if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
     document.getElementById("pre").innerHTML = "J'éspere que t'es prete fraté.\n C'est pas un quizz de bébé, j'tle dis...";
     document.getElementById("pre1").innerHTML = "Allez on commence !!!";
     document.getElementById("fq").innerHTML = "Comment s'appelle mon frére ?";
+    document.getElementById("b1").innerHTML = "Kamal";
+    document.getElementById("b2").innerHTML = "Mohamed";
+    document.getElementById("b3").innerHTML = "Mohamed Kamal";
+    document.getElementById("b4").innerHTML = "Mohamed Kamal Issam";
     setTimeout( function(){ 
         document.getElementById("pre1").style.opacity = "1";
     }, 7000 );
