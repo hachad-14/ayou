@@ -1,3 +1,4 @@
+
 var todaysDate = new Date();
 
 var inputDate = new Date("06/21/2021");

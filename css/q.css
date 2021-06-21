@@ -65,8 +65,8 @@ body {
         position: absolute;
         padding: 4vw 10vw;
         background-color: #fff;
-        top: 120vw;
-        left: 15vw;
+        top: 97vw;
+        left: 12vw;
         border-radius: 5vw;
         color: #000;
         font-family: 'Montserrat';
@@ -79,8 +79,8 @@ body {
         position: absolute;
         padding: 4vw 10vw;
         background-color: #fff;
-        top: 120vw;
-        left: 55vw;
+        top: 97vw;
+        left: 50vw;
         border-radius: 5vw;
         color: #000;
         font-family: 'Montserrat';
@@ -93,8 +93,8 @@ body {
         position: absolute;
         padding: 4vw 10vw;
         background-color: #fff;
-        top: 90vw;
-        left: 15vw;
+        top: 75vw;
+        left: 23vw;
         border-radius: 5vw;
         color: #000;
         font-family: 'Montserrat';
@@ -107,8 +107,8 @@ body {
         position: absolute;
         padding: 4vw 10vw;
         background-color: #fff;
-        top: 90vw;
-        left: 55vw;
+        top: 120vw;
+        left: 17vw;
         border-radius: 5vw;
         color: #000;
         font-family: 'Montserrat';
@@ -116,6 +116,15 @@ body {
         visibility: hidden;
         opacity: 0;
         transition: 1s ease;
+    }
+    .arrow {
+        position: absolute;
+        transform: rotate(180deg);
+        width: 9vw;
+        top: 9vw;
+        left: 1vw;
+        filter: invert(100%);
+        z-index: 10;
     }
     @keyframes drop {
         0% {
