@@ -38,7 +38,7 @@ body {
         font-size: 6vw;
         opacity: 0;
         top: 13vw;
-        left: 2vw;
+        left: 0vw;
         transition: 2s ease;
     }
     .body {
@@ -147,12 +147,12 @@ body {
         0% {
             opacity: 0;
             top: -20vw;
-            left: 0vw;
+            left: -1vw;
         }
         70% {
             opacity: 1;
             top: 5vw;
-            left: 0vw;
+            left: -1vw;
         }
         100% {
             opacity: 1;
