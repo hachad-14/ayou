@@ -4,6 +4,7 @@ $(document).ready(function() {
 
     var inputDate = new Date("06/21/2021");
     if(inputDate.setHours(0,0,0,0) == todaysDate.setHours(0,0,0,0)) {
+        document.getElementById("nbd").innerHTML = "Nombre d'essais restant :<br>10/10"
         document.getElementById("pre").innerHTML = "J'éspere que t'es prete fraté.<br> C'est pas un quizz de bébé,<br>j'tle dis...";
         document.getElementById("pre1").innerHTML = "Allez on commence !!!";
         document.getElementById("fq").innerHTML = "Comment s'appelle mon<br>frére ?";
@@ -47,6 +48,9 @@ $(document).ready(function() {
         setTimeout( function(){ 
             document.getElementById("pre1").style.opacity = "0";
         }, 10000 );
+        setTimeout( function(){ 
+            document.getElementById("nbd").style.opacity = "1";
+        }, 8000);
         setTimeout( function(){ 
             document.getElementById("fq").style.opacity = "1";
             document.getElementById("b1").style.visibility = "visible";

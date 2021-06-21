@@ -15,6 +15,18 @@ body {
         position: fixed;
         overflow: hidden;
     }
+    #nbd {
+        position: absolute;
+        font-family: 'Montserrat';
+        color: #000;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: bold;
+        top: 19vw;
+        left: 15vw;
+        opacity: 0;
+        transition: 1s ease;
+    }
     #pre {
         position: absolute;
         padding: 10vw 15vw;
