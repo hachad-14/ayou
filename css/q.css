@@ -117,7 +117,7 @@ body {
         opacity: 0;
         transition: 1s ease;
     }
-    .arrow {
+    #arrow {
         position: absolute;
         transform: rotate(180deg);
         width: 9vw;
@@ -125,6 +125,23 @@ body {
         left: 1vw;
         filter: invert(100%);
         z-index: 10;
+        visibility: visible;
+    }
+    #redscreen{
+        position: relative;
+        top: -100vw;
+        padding: 100% 100%;
+        background-color: #cf0000;
+        visibility: hidden;
+        transition: 1s ease;
+    }
+    #greenscreen{
+        position: relative;
+        top: -300vw;
+        padding: 100% 100%;
+        background-color: #23a600;
+        visibility: hidden;
+        transition: 1s ease;
     }
     @keyframes drop {
         0% {
